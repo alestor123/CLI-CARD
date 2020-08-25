@@ -35,3 +35,18 @@ const githubing = `${data.labelGitHub}  ${data.github}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
+// Put all our output together into a single variable so we can use boxen effectively
+const output = heading
+  + newline
+  + working
+  + newline
+  + newline
+  + githubing
+  + newline
+  + webing
+  + newline
+  + newline
+  + carding;
+
+const cardMessage = chalk.green(boxen(output, options));
+captains.log(cardMessage);
