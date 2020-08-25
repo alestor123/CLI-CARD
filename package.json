@@ -1,5 +1,5 @@
 {
-  "name": "cli-card",
+  "name": "@alestor123/cli-card",
   "version": "1.0.0",
   "description": "This is a simple contact card using chalk js ",
   "main": "App.js",
