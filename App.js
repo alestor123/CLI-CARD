@@ -20,7 +20,7 @@ const data = {
   work: chalk.white('As A Full Stack Developer'),
   github: chalk.cyan('https://github.com/alestor123'),
   web: chalk.cyan('http://alestor123.github.io/'),
-  npx: chalk.white('npx alestor123-card'),
+  npx: chalk.white('npx alestor123'),
   labelWork: chalk.white.bold('      Work:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelWeb: chalk.white.bold('       Web:'),
