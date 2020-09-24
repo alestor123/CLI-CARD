@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple contact card using chalk js ",
   "main": "App.js",
+  "bin": {
+    "alestor123-card": "App.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
